@@ -1,4 +1,4 @@
-FlexFan:
+# FlexFan
 The FlexFan is a PWM-controlled fan unit that can be adapted into various fan setups using PVC drain pipes and 3D-printed parts.
 
 For this project, I used a Delta fan rated 4.5A. However, any PWM-controllable fan that fits in the 93x93 mm space will work. By modifying some of the parts a little, you should also be able to use a different size drain pipe; the original design is made for 110 mm diameter pipes.
