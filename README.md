@@ -1,30 +1,31 @@
-# FlexFan
-FlexFan is a PWM controlled fan unit witch can turn into any kind of fan you would like using PVC drain pipes and 3D-printed parts!
+FlexFan:
+The FlexFan is a PWM-controlled fan unit that can be adapted into various fan setups using PVC drain pipes and 3D-printed parts.
 
-For this project i have used a [delta fan](https://www.delta-fan.com/pfr0912xhe-sp00.html) rated 4.5A. But any PWM controllable fan that fit in the 93x93mm space will work. By modificating some of the parts a littel, you should also be able to use another size for the drain pipes, the original design is made for 110mm diameter.
+For this project, I used a Delta fan rated 4.5A. However, any PWM-controllable fan that fits in the 93x93 mm space will work. By modifying some of the parts a little, you should also be able to use a different size drain pipe; the original design is made for 110 mm diameter pipes.
 
-Except the 3D-printed parts you wioll need:
-* Board + skrews for mounting
+In addition to the 3D-printed parts, you will need:
+
+* A board and screws for mounting.
 * Fan
-  * A PWM fan smaller than 93x93mm
-  * PVC pipes 110mm of your choice
-  * M4 skrews with matching nuts (can be replaced with glue)
-  * A powersupply enugh to mpower the fan, i used [Mean Well lpv-60-12](https://www.meanwell.com/Upload/PDF/LPV-60/LPV-60-SPEC.PDF)
-* 5v power
-  * 220v socket
-  * 5v transformator (standard usb charger)
-  * usb-A to micro-usb
-  #### or
-  * dc-dc 12v to 5v buck converter
-* Control unit
-  * Raspberry pi pico
-  * 5v relay
-  * 2x 2n2222a transistor
-* UI (optional)
-   * 5x 3v LED + current limiting resistor
-   * Button to set timer
-   * DIP switch 4pos, fan setting
-   * Lever, power
+  * A PWM fan smaller than 93x93 mm
+  * PVC pipes, 110 mm, of your choice
+  * M4 screws with matching nuts (can be replaced with glue).
+  * A power supply capable to power the fan. I used a Mean Well LPV-60-12.
+* 5V power
+  * A 220V socket
+  * 5V transformer (standard USB charger).
+  * USB-A to Micro-USB
+  #### Or
+  * DC-DC 12V to 5V Buck Converter
+* Control unit:
+  * Raspberry Pi Pico
+  * 5V relay
+  * 2x 2N2222A transistors
+* UI (optional):
+  * 5x 3V LEDs and current-limiting resistors
+  * A button to set the timer.
+  * DIP switch, 4-position, for fan setting
+  * Power switch
  
 
 >This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
