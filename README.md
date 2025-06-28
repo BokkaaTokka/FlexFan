@@ -2,7 +2,7 @@
 The FlexFan is a PWM-controlled fan unit that can be adapted into various fan setups using PVC drain pipes and 3D-printed parts.
 ![FlexFan without any attatchments.](https://github.com/BokkaaTokka/FlexFan/blob/b8b9da13025f5a4f265581d7217ead3966fa39e7/Images/20250627_114907.jpg)
 I have developed several modules, including a 360-degree air circulator, a simple directional blower, and a bed inflator. But you can attach anything to it by making your modules attachable to the M110, 2mm rising thread. I have also created a mod that lets you rotate the modules using a small knob.
-I am currently working on a "bladeless" attachment.
+I am currently working on a "bladeless" attachment. There is a dip switch controlling the fan modes, by toggling more than one on, you can combine modes.
 ___
 For this project, I used a Delta fan rated 4.5A. However, any PWM-controllable fan that fits in the 93x93 mm space will work. By modifying some of the parts a little, you should also be able to use a different sized drain pipe; the original design is made for 110 mm diameter pipes.
 
