@@ -30,7 +30,7 @@ In addition to the 3D-printed parts, you will need:
   * DIP switch, 4-position, for fan setting
   * Power switch
 
- ... in progress ...
+
 
 >This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License.
 >
